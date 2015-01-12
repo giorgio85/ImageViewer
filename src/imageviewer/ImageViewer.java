@@ -4,8 +4,6 @@ package imageviewer;
 import Model.Image;
 import Model.ImageSet;
 import Persistence.ImageSetLoader;
-import java.util.Iterator;
-
 public class ImageViewer {
 
    
@@ -13,9 +11,7 @@ public class ImageViewer {
         ImageSet images = ImageSet.getInstance();
         ImageSetLoader.load(images);
         
-        Iterator iterador = images.iterator();
-        while (iterador.hasNext()) {
-            Image elemento = (Image) iterador.next();
+        for (Image elemento : images) {
             System.out.println(elemento.toString());
         }
     }
