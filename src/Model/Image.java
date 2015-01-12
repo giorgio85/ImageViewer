@@ -1,10 +1,6 @@
 
 package Model;
 
-/**
- *
- * @author Noemi
- */
 public class Image {
     private final String name;
     private final String link;

@@ -6,10 +6,6 @@ import Model.ImageSet;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-/**
- *
- * @author Noemi
- */
 public class ImageSetLoader {
     
     public static void load(ImageSet imageSet){

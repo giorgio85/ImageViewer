@@ -6,10 +6,6 @@ import Model.ImageSet;
 import Persistence.ImageSetLoader;
 import java.util.Iterator;
 
-/**
- *
- * @author Noemi
- */
 public class ImageViewer {
 
    
